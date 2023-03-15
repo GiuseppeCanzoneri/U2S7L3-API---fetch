@@ -10,8 +10,8 @@ fetch("https://striveschool-api.herokuapp.com/books")
       const col = document.createElement("div");
       col.className = "col";
       col.innerHTML = `
-        <div class="card">
-            <div class="card-body"> 
+        <div class="card bg-dark-subtle">
+            <div class="card-body">  
             <img src="${books.img}" class="card-img-top" alt="copertina">
             <span class="badge bg-dark">${books.asin}</span >
                 <h5 class="card-title">${books.title}</h5>
